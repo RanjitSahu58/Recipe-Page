@@ -1,0 +1,249 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  width: 100vw;
+  overflow-x: hidden;
+  /* font-family: "Outfit", sans-serif; */
+/* font-family: "Young Serif", serif; */
+}
+section{
+margin: 2rem;
+}
+.header-img{
+  text-align: center;
+}
+.header-img img{
+  max-width: fit-content;
+  width: 100%;
+  border-radius: 20px;
+}
+main{
+  padding-inline: 4.4rem;
+}
+hr{
+  border: 0.2px solid rgba(86, 83, 83, 0.128);
+}
+.heading-paragragh{
+  margin-top:1.3rem;
+}
+.heading-paragragh h1{
+  font-size: 2.7rem;
+  font-family: "Young Serif", serif;
+  font-weight: 500;
+}
+.heading-paragragh p{
+  margin-top: 1rem;
+  max-width: 1150px;
+  width: 100%;
+  font-size: 1.3rem;
+  font-family: "Outfit", sans-serif;
+  color:  hsl(30, 10%, 34%);
+}
+.card-container{
+  width: 100%;
+  border-radius: 20px;
+  background-color: hsl(330, 100%, 98%);
+  margin-top: 2.2rem;
+  padding-bottom: 2.5rem;
+}
+.card-container h4{
+  padding-top: 2.5rem;
+  padding-inline: 2.5rem;
+  font-size: 2rem;
+  font-family: "Outfit", sans-serif;
+  color: hsl(332, 51%, 32%);
+
+}
+.card-container ul{
+  margin-top:1rem;
+  margin-inline: 4.3rem;
+  font-size: 1.3rem;  
+  font-family: "Outfit", sans-serif;
+}
+.card-container ul li{
+  color:  hsl(30, 10%, 34%);
+  margin-top: 1rem;
+}
+.card-container ul li p{
+  padding-inline: 1.3rem;
+}
+.card-container ul li::marker {
+  color: hsl(332, 51%, 32%);
+}
+.card-container ul li b{
+  color: black;
+}
+.hr-line{
+  margin-block:2rem ;
+}
+.ingradient-card{
+  margin-top:2.2rem;
+}
+.ingradient-card h2, .instruction h2, .nutrition-card h2{
+  font-size: 2.4rem;
+  font-family: "Young Serif", serif;
+  font-weight: 500;
+  color: hsl(14, 45%, 36%);
+}
+.ingradient-card ul{
+  margin-top: 1rem;
+  margin-inline:1.7rem ;
+  font-size: 1.3rem;  
+  font-family: "Outfit", sans-serif;
+}
+.ingradient-card ul li{
+  color:  hsl(30, 10%, 34%);
+  margin-top: 1rem;
+}
+.ingradient-card ul li p{
+  padding-inline: 1.3rem;
+}
+.ingradient-card ul li::marker{
+  color: hsl(14, 45%, 36%);
+}
+.hr-line{
+  margin-block: 2.4rem;
+}
+
+.instruction ol{
+  margin-top:1rem;
+  padding-inline: 1.3rem;
+  font-size: 1.3rem;  
+  font-family: "Outfit", sans-serif;
+}
+.instruction ol li{
+  margin-top: 1rem;
+  color:  hsl(30, 10%, 34%);
+}
+.instruction ol li p{
+  padding-inline: 1.3rem;
+  max-width: 1150px;
+  width: 100%;
+}
+
+.instruction ol li::marker{
+  color: hsl(14, 45%, 36%);
+  font-weight: 700;
+}
+.nutrition-card{
+  margin-bottom: 2rem;
+}
+
+.description-text{
+  margin-top: 1rem;
+  font-size: 1.3rem;
+  font-family: "Outfit", sans-serif;
+  color:  hsl(30, 10%, 34%);
+}
+.div1{
+  margin-top: 1.7rem;
+  margin-left: 2.2rem;
+  display: flex;
+  align-items: center;
+}
+.div1 p, .div1 span{
+  font-size: 1.2rem;
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  color:  hsl(30, 10%, 34%);
+}
+.div1 span{
+  padding-left:22rem;
+  color: hsl(14, 45%, 36%);
+}
+.div2 span{
+  padding-left:23.2rem ;
+}
+.div3 span{
+  padding-left:22.6rem ;
+}
+.div4 span{
+  padding-left:24.6rem ;
+}
+.hr-line2{
+  margin: 1.2rem 0;
+}
+
+@media(max-width:900px){
+  section{
+    margin: 1rem;
+    }
+    main{
+      padding-inline: 1rem;
+    }
+    .div1 span{
+      padding-left: 18rem;  
+    }
+    .div2 span{
+      padding-left:19.2rem ;
+    }
+    .div3 span{
+      padding-left:18.6rem ;
+    }
+    .div4 span{
+      padding-left:20.6rem ;
+    }
+}
+@media(max-width:560px){
+  
+  .heading-paragragh h1{
+    font-size: 2rem;
+  }
+  .heading-paragragh p{
+    font-size: 1.1rem;
+    letter-spacing: 0px;
+  }
+  .card-container h4{
+    font-size: 1.4rem;
+    padding-inline: 1.5rem;
+  }
+  .card-container ul{
+    font-size: 1rem;  
+    margin-left: 3.3rem;
+  }
+  .ingradient-card h2, .instruction h2, .nutrition-card h2{
+    font-size: 1.7rem;
+  }
+  .ingradient-card ul{
+    margin-inline:1.5rem ;
+    font-size: 1rem;  
+  }
+  .ingradient-card ul li p{
+    padding-inline: 1rem;
+  }
+  
+  .ingradient-card ul li p{
+    padding-inline: 1rem;
+  }
+  .instruction ol{
+    padding-inline: 1rem;
+    font-size: 1rem;  
+  }
+  .description-text{
+    margin-top: 1rem;
+    font-size: 1rem;
+  }
+  .div1{
+    margin-left: 1rem;
+  }
+  .div1 p, .div1 span{
+    font-size: 1rem;
+  }
+
+
+  .div1 span{
+    padding-left: 8rem;  
+  }
+  .div2 span{
+    padding-left:9.2rem ;
+  }
+  .div3 span{
+    padding-left:8.6rem ;
+  }
+  .div4 span{
+    padding-left:10.6rem ;
+  }
+}
